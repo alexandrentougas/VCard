@@ -1,13 +1,10 @@
 body {
-  background-image:url(blueback.jpg);
-
+  background-image:url(https://initiate.alphacoders.com/images/118/cropped-1920-1080-118739.jpg?5195);
+  color: white;
 }
 
 .infoall {
-  background: -webkit-linear-gradient(left top, #FA6607, yellow);
-  background: -o-linear-gradient(bottom right, #FA6607, yellow);
-  background: -moz-linear-gradient(bottom right, #FA6607, yellow);
-  background: linear-gradient(to bottom right, #FA6607, yellow);
+  background-color: rgba(0,0,0,0.5);
   margin: 50px 200px;
   padding: 20px;
   border-radius: 20px;
@@ -36,7 +33,7 @@ img.resize {
 }
 
 .name {
-  color: #0D355A;
+  color: #FA5732;
   font-weight: bolder;
   font-size: 32px;
 }
@@ -57,7 +54,7 @@ img.resize {
 }
 
 .links {
-  background-color: lightgrey;
+  background-color: rgba(0,0,0,0.5);
   margin: 0px 200px 0px 200px;
   height: 50px;
   padding: 20px;
@@ -67,17 +64,17 @@ img.resize {
 }
 
 .fa {
-padding-left: 40px;
+  margin: 0px 100px;
 }
 
 a {
-  color:black;
+  color:white;
 }
 
 a:visited .fa {
-  color: black;
+  color: white;
 }
 
 a:hover .fa {
-  color:#FB1
+  color:#FA5732;
 }
