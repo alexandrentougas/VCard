@@ -1,10 +1,10 @@
 body {
-  background-image:url(https://initiate.alphacoders.com/images/118/cropped-1920-1080-118739.jpg?5195);
+  background-image: url(back.jpg);
   color: white;
 }
 
 .infoall {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   margin: 100px 200px 50px 200px;
   padding: 20px;
   border-radius: 20px;
@@ -54,7 +54,7 @@ img.resize {
 }
 
 .links {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   margin: 0px 200px 0px 200px;
   height: 50px;
   padding: 20px;
