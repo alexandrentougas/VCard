@@ -1,35 +1,37 @@
-body {
-  background-image: url(back.jpg);
+html, body {
+  box-sizing: border-box;
+  height: 100%;
   color: white;
 }
 
 .infoall {
-  background-color: rgba(0,0,0,0.6);
-  margin: 100px 200px 50px 200px;
-  padding: 20px;
+  background-color: rgba(0,0,0,0.8);
+  width: 85%;
+  margin: auto;
+  padding: 30px;
   border-radius: 20px;
-  display: flex;
   align-items: center;
   text-align: center;
   font-size: 20px;
   font-family: 'Patua One', cursive;
-  width: 75%;
+  margin-top: 50px;
 }
 
-.pic {
-  float: left;
-  padding: 80px;
+.container-fluid {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  min-height: 100%;
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img.resize {
-  max-width:200%;
-  max-height:200%;
   border-radius: 20px;
 }
 
 .base {
-  padding: 70px;
-  margin-left: 20px;
+  padding: 50px;
 }
 
 .name {
@@ -42,29 +44,19 @@ img.resize {
   font-weight: bold;
 }
 
-.vl {
-    border-left: 6px solid #FA5732;
-    height: 500px;
-}
-
 .info {
-  float: right;
-  padding: 80px;
-  font-weight: bold;
+  border-left: 6px solid #FA5732;
+  padding: 50px;
 }
 
 .links {
-  background-color: rgba(0,0,0,0.6);
-  margin: 0px 200px 0px 200px;
-  height: 50px;
+  background-color: rgba(0,0,0,0.8);
+  margin: auto;
   padding: 20px;
   text-align: center;
   font-size: 48px;
-  width: 75%;
-}
-
-.fa {
-  margin: 0px 100px;
+  width: 85%;
+  border-radius: 20px;
 }
 
 a {
@@ -77,4 +69,12 @@ a:visited .fa {
 
 a:hover .fa {
   color:#FA5732;
+}
+
+@media screen and (max-width:1199px) {
+  .info {
+    border-left: none;
+    border-top: 6px solid #FA5732;
+    padding: 50px;
+  }
 }
